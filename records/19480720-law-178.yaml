@@ -1,0 +1,65 @@
+schemaVersion: loj-registry/v1alpha1
+id: 19480720-law-178
+label: 国民の祝日に関する法律（昭和二十三年法律第百七十八号）
+status: active
+identity:
+  evidence:
+  - source: src-kanpo-19480720
+    locator: 1コマ
+  verification:
+    state: confirmed
+collection:
+  state: collected
+repository:
+  location: github.com/law-of-japan/19480720-law-178
+  canonicalBranch: main
+sources:
+- id: src-kanpo-19480720
+  kind: promulgation
+  title: 官報 第6453号 昭和23年7月20日（国立国会図書館デジタルコレクション pid/2962986）
+  uri: https://dl.ndl.go.jp/pid/2962986
+  glyphPreservation: preserved
+  fixed: docs/sources/kanpo-19480720-1.jpg SHA-256 0f5a9fd94bf9dda5df31c4c58a23cf67041c683c68cc876899b010b57afbb728
+- id: src-draft
+  kind: other
+  title: loj-spec hist-001 試作（下書き・仮置きのみ）
+  uri: https://github.com/law-of-japan/loj-spec/tree/b200fdb13957c6d6c7f9805d59c78980abac093d/conformance/loj-history/v1alpha1/valid/hist-001/repo
+  glyphPreservation: unknown
+numbers:
+- id: n1
+  state: exists
+  raw: 法律第百七十八号
+  structured:
+    system: 法律
+    period:
+      raw: 昭和二十三年
+      gregorian:
+        from: '1948-01-01'
+        to: '1948-12-31'
+    series:
+      state: regular
+    number: '178'
+  evidence:
+  - source: src-kanpo-19480720
+    locator: 1コマ 法律の冒頭
+  verification:
+    state: confirmed
+  decision: adopted
+  glyphs:
+  - id: g1
+    offset: 7
+    recorded: 号
+    kind: ambiguous
+    candidates:
+    - 号
+    - 號
+    basis: provisional
+    evidence:
+    - source: src-kanpo-19480720
+      locator: 1コマ 法律の冒頭
+    - source: src-draft
+      locator: versions/98mj5vgx/law.yaml
+    verification:
+      state: unverified
+      reason: 官報画像の号／號を追加照合する必要がある。
+externalIds: []
