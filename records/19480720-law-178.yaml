@@ -19,7 +19,7 @@ sources:
   title: 官報 第6453号 昭和23年7月20日（国立国会図書館デジタルコレクション pid/2962986）
   uri: https://dl.ndl.go.jp/pid/2962986
   glyphPreservation: preserved
-  fixed: docs/sources/kanpo-19480720-1.jpg SHA-256 0f5a9fd94bf9dda5df31c4c58a23cf67041c683c68cc876899b010b57afbb728
+  fixed: https://github.com/law-of-japan/19480720-law-178/blob/71e768637db5c4358cb2ae84101094cf382896fe/docs/sources/kanpo-19480720-1.jpg SHA-256 0f5a9fd94bf9dda5df31c4c58a23cf67041c683c68cc876899b010b57afbb728
 - id: src-draft
   kind: other
   title: loj-spec hist-001 試作（下書き・仮置きのみ）
