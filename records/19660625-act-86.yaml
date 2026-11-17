@@ -16,7 +16,7 @@ identity:
   verification:
     state: confirmed
 collection:
-  state: notCollected
+  state: collected
 sources:
 - id: src-legacy-19480720-law-178
   kind: other
@@ -27,7 +27,10 @@ sources:
   title: 国民の祝日に関する法律の一部を改正する法律・御署名原本・昭和四十一年・第四巻・法律第八十六号（国立公文書館 御42643100）
   uri: https://www.digital.archives.go.jp/file/686000
   glyphPreservation: preserved
-  fixed: https://github.com/law-of-japan/19480720-law-178/blob/71e768637db5c4358cb2ae84101094cf382896fe/docs/sources/goshomei-1966-1.jpg SHA-256 0910dda0755b1d70c0e2d51fe132062b7c181b1c782dc8fd96aa70ea804f9914; https://github.com/law-of-japan/19480720-law-178/blob/71e768637db5c4358cb2ae84101094cf382896fe/docs/sources/goshomei-1966-2.jpg SHA-256 c4ecd326ca0e815d3af699fbcefc62f0175ecd6403d31787263e1479c4ac88c3; https://github.com/law-of-japan/19480720-law-178/blob/71e768637db5c4358cb2ae84101094cf382896fe/docs/sources/goshomei-1966-3.jpg SHA-256 e44cc173685b00b0058725b9a84ac9372aee79d46488246496a80062a17be06d
+  fixed: https://github.com/law-of-japan/19480720-law-178/blob/71e768637db5c4358cb2ae84101094cf382896fe/docs/sources/goshomei-1966-1.jpg
+    SHA-256 0910dda0755b1d70c0e2d51fe132062b7c181b1c782dc8fd96aa70ea804f9914; https://github.com/law-of-japan/19480720-law-178/blob/71e768637db5c4358cb2ae84101094cf382896fe/docs/sources/goshomei-1966-2.jpg
+    SHA-256 c4ecd326ca0e815d3af699fbcefc62f0175ecd6403d31787263e1479c4ac88c3; https://github.com/law-of-japan/19480720-law-178/blob/71e768637db5c4358cb2ae84101094cf382896fe/docs/sources/goshomei-1966-3.jpg
+    SHA-256 e44cc173685b00b0058725b9a84ac9372aee79d46488246496a80062a17be06d
 numbers:
 - id: n1
   state: exists
@@ -50,3 +53,6 @@ numbers:
     reason: 官報と未照合
   decision: adopted
 externalIds: []
+repository:
+  location: github.com/law-of-japan/19660625-act-86
+  canonicalBranch: main
