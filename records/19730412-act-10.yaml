@@ -1,0 +1,57 @@
+schemaVersion: loj-registry/v1alpha1
+id: 19730412-act-10
+label: 国民の祝日に関する法律の一部を改正する法律（昭和四十八年法律第十号）
+status: active
+aliases:
+- id: 19730412-law-10
+  evidence:
+  - source: src-legacy-19480720-law-178
+    locator: supplementary_provision.md（commit 43934f17a35c8b4dce2caec609bddbae4eb6841b）の附則のリンク
+  verification:
+    state: confirmed
+identity:
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 1・2画像
+  verification:
+    state: confirmed
+collection:
+  state: collected
+sources:
+- id: src-legacy-19480720-law-178
+  kind: other
+  title: 旧リポジトリ law-of-japan/19480720-law-178
+  uri: https://github.com/law-of-japan/19480720-law-178
+- id: src-goshomei-s48-10
+  kind: promulgation
+  title: 国民の祝日に関する法律の一部を改正する法律・御署名原本・昭和四十八年・第二巻・法律第一〇号（国立公文書館 御46243100）
+  uri: https://www.digital.archives.go.jp/file/689066
+  glyphPreservation: preserved
+  fixed: https://github.com/law-of-japan/19480720-law-178/blob/3fc35c9241695557804fc7d54d24ee20a70c6ab3/docs/sources/goshomei-1973-1.jpg
+    SHA-256 58c47631b3bc0fd234dc7bac2d66b76f3dcf3f38d1141c46df842a611877c0b2; https://github.com/law-of-japan/19480720-law-178/blob/3fc35c9241695557804fc7d54d24ee20a70c6ab3/docs/sources/goshomei-1973-2.jpg
+    SHA-256 9a8ef69494779af1be76ac181840698d12330196a5fd4b6db03feeb8756be6b2
+numbers:
+- id: n1
+  state: exists
+  raw: 法律第十号
+  structured:
+    system: 法律
+    period:
+      raw: 昭和四十八年
+      gregorian:
+        from: '1973-01-01'
+        to: '1973-12-31'
+    series:
+      state: regular
+    number: '10'
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 2画像 冒頭
+  verification:
+    state: unverified
+    reason: 官報と未照合
+  decision: adopted
+externalIds: []
+repository:
+  location: github.com/law-of-japan/19730412-act-10
+  canonicalBranch: main
