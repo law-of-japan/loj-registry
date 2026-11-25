@@ -1,0 +1,40 @@
+schemaVersion: loj-registry/v1alpha1
+id: ex0typ1a26
+label: 労働省設置法（昭和二十四年法律第百六十二号）
+status: active
+identity:
+  evidence:
+  - source: src-kanpo-19490531
+    locator: 86コマ 1頁
+  verification:
+    state: confirmed
+collection:
+  state: notCollected
+sources:
+- id: src-kanpo-19490531
+  kind: promulgation
+  title: 官報 号外第61号 昭和24年5月31日（国立国会図書館デジタルコレクション pid/2963253）
+  uri: https://dl.ndl.go.jp/pid/2963253
+  glyphPreservation: preserved
+  fixed: https://github.com/law-of-japan/19470831-law-97/blob/38ab3d05e2b3a562ab13ec49639e77d3a24ddafb/docs/sources/kanpo-19490531-86.jpg SHA-256 de1d214b79e61840677414138036baeca564e7bd8de200ae5b59a74188fce2d4
+numbers:
+- id: n1
+  state: exists
+  raw: 法律第百六十二号
+  structured:
+    system: 法律
+    period:
+      raw: 昭和二十四年
+      gregorian:
+        from: '1949-01-01'
+        to: '1949-12-31'
+    series:
+      state: regular
+    number: '162'
+  evidence:
+  - source: src-kanpo-19490531
+    locator: 86コマ 1頁 法律の冒頭
+  verification:
+    state: confirmed
+  decision: adopted
+externalIds: []
