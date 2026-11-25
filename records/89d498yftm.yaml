@@ -1,0 +1,40 @@
+schemaVersion: loj-registry/v1alpha1
+id: 89d498yftm
+label: 労働省設置法の施行期日を定める政令（昭和二十二年政令第百六十九号）
+status: active
+identity:
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 2コマ 2頁
+  verification:
+    state: confirmed
+collection:
+  state: notCollected
+sources:
+- id: src-kanpo-19470831
+  kind: promulgation
+  title: 官報 号外 昭和22年8月31日（国立国会図書館デジタルコレクション pid/2962708）
+  uri: https://dl.ndl.go.jp/pid/2962708
+  glyphPreservation: preserved
+  fixed: https://github.com/law-of-japan/19470831-law-97/blob/38ab3d05e2b3a562ab13ec49639e77d3a24ddafb/docs/sources/kanpo-19470831-2.jpg SHA-256 1e38dec2861653373b5cc7e53243328d64755aeba3db46ef7467530f281d6c71
+numbers:
+- id: n1
+  state: exists
+  raw: 政令第百六十九号
+  structured:
+    system: 政令
+    period:
+      raw: 昭和二十二年
+      gregorian:
+        from: '1947-01-01'
+        to: '1947-12-31'
+    series:
+      state: regular
+    number: '169'
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 2コマ 2頁 政令の冒頭
+  verification:
+    state: confirmed
+  decision: adopted
+externalIds: []
