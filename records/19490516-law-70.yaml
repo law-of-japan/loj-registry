@@ -9,14 +9,17 @@ identity:
   verification:
     state: confirmed
 collection:
-  state: notCollected
+  state: collected
+repository:
+  location: github.com/law-of-japan/19490516-law-70
+  canonicalBranch: main
 sources:
 - id: src-kanpo-19490516
   kind: promulgation
   title: 官報 号外 昭和24年5月16日 鉱山保安法（国立国会図書館デジタルコレクション pid/2963240）
   uri: https://dl.ndl.go.jp/pid/2963240
   glyphPreservation: preserved
-  fixed: https://github.com/law-of-japan/19470831-law-97/blob/38ab3d05e2b3a562ab13ec49639e77d3a24ddafb/docs/sources/kanpo-19490516-14.jpg SHA-256 e7e8910065c8bbd51444556dfafe3229cf00f6d1c8f8384064f4c43a7bc867d1
+  fixed: https://github.com/law-of-japan/19490516-law-70/blob/56c7991a1462c9366c3eda942b17708db5a8af63/docs/sources/kanpo-19490516-14.jpg SHA-256 e7e8910065c8bbd51444556dfafe3229cf00f6d1c8f8384064f4c43a7bc867d1
 numbers:
 - id: n1
   state: exists

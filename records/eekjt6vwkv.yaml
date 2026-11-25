@@ -1,0 +1,40 @@
+schemaVersion: loj-registry/v1alpha1
+id: eekjt6vwkv
+label: 鉱山保安法の施行に関する政令（昭和二十四年政令第二百九十三号）
+status: active
+identity:
+  evidence:
+  - source: src-kanpo-19490803
+    locator: 1コマ 25頁
+  verification:
+    state: confirmed
+collection:
+  state: notCollected
+sources:
+- id: src-kanpo-19490803
+  kind: promulgation
+  title: 官報 第6766号 昭和24年8月3日（国立国会図書館デジタルコレクション pid/2963308）
+  uri: https://dl.ndl.go.jp/pid/2963308
+  glyphPreservation: preserved
+  fixed: https://github.com/law-of-japan/19490516-law-70/blob/56c7991a1462c9366c3eda942b17708db5a8af63/docs/sources/kanpo-19490803-1.jpg SHA-256 007d3fa2e92306663b2e9841d08a287d69ea672b0e443168531e58abcd68c391
+numbers:
+- id: n1
+  state: exists
+  raw: 政令第二百九十三号
+  structured:
+    system: 政令
+    period:
+      raw: 昭和二十四年
+      gregorian:
+        from: '1949-01-01'
+        to: '1949-12-31'
+    series:
+      state: regular
+    number: '293'
+  evidence:
+  - source: src-kanpo-19490803
+    locator: 1コマ 25頁 政令の冒頭
+  verification:
+    state: confirmed
+  decision: adopted
+externalIds: []
