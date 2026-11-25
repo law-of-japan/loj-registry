@@ -1,0 +1,43 @@
+schemaVersion: loj-registry/v1alpha1
+id: 19470831-law-97
+label: 労働省設置法（昭和二十二年法律第九十七号）
+status: active
+identity:
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 1頁
+  verification:
+    state: confirmed
+collection:
+  state: collected
+repository:
+  location: github.com/law-of-japan/19470831-law-97
+  canonicalBranch: main
+sources:
+- id: src-kanpo-19470831
+  kind: promulgation
+  title: 官報 号外 昭和22年8月31日（国立国会図書館デジタルコレクション pid/2962708）
+  uri: https://dl.ndl.go.jp/pid/2962708
+  glyphPreservation: preserved
+  fixed: https://github.com/law-of-japan/19470831-law-97/blob/38ab3d05e2b3a562ab13ec49639e77d3a24ddafb/docs/sources/kanpo-19470831-1.jpg SHA-256 f7c13976fbb2226d36501795ddf688ce75ac366d440df3369ad0e7452b827182
+numbers:
+- id: n1
+  state: exists
+  raw: 法律第九十七号
+  structured:
+    system: 法律
+    period:
+      raw: 昭和二十二年
+      gregorian:
+        from: '1947-01-01'
+        to: '1947-12-31'
+    series:
+      state: regular
+    number: '97'
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 1頁 法律の冒頭
+  verification:
+    state: confirmed
+  decision: adopted
+externalIds: []

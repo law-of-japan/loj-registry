@@ -1,0 +1,40 @@
+schemaVersion: loj-registry/v1alpha1
+id: 19490516-law-70
+label: 鉱山保安法（昭和二十四年法律第七十号）
+status: active
+identity:
+  evidence:
+  - source: src-kanpo-19490516
+    locator: 14コマ 8頁
+  verification:
+    state: confirmed
+collection:
+  state: notCollected
+sources:
+- id: src-kanpo-19490516
+  kind: promulgation
+  title: 官報 号外 昭和24年5月16日 鉱山保安法（国立国会図書館デジタルコレクション pid/2963240）
+  uri: https://dl.ndl.go.jp/pid/2963240
+  glyphPreservation: preserved
+  fixed: https://github.com/law-of-japan/19470831-law-97/blob/38ab3d05e2b3a562ab13ec49639e77d3a24ddafb/docs/sources/kanpo-19490516-14.jpg SHA-256 e7e8910065c8bbd51444556dfafe3229cf00f6d1c8f8384064f4c43a7bc867d1
+numbers:
+- id: n1
+  state: exists
+  raw: 法律第七十号
+  structured:
+    system: 法律
+    period:
+      raw: 昭和二十四年
+      gregorian:
+        from: '1949-01-01'
+        to: '1949-12-31'
+    series:
+      state: regular
+    number: '70'
+  evidence:
+  - source: src-kanpo-19490516
+    locator: 14コマ 8頁 法律の冒頭
+  verification:
+    state: confirmed
+  decision: adopted
+externalIds: []
